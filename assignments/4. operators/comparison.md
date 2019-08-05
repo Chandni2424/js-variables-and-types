@@ -2,37 +2,37 @@
 
 Write the output (true / false) next to the comparision done below.
 ```js
-"hello world" === "hello world"; // Output
+"hello world" === "hello world"; // Output true
 
-"hello world" == "hello world";
+"hello world" == "hello world";//Output true
 
-true === true;
+true === true;//output true
 
-77 == "77";
+77 == "77";//output true
 
-77 === "77";
+77 === "77";output false
 
-"cat" === "dog";
+"cat" === "dog";//output false
 
-false === 0;
+false === 0;//output true
 
-false == 0;
+false == 0;// output true
 
-0 == "";
+0 == "";//output true
 
-"" == false;
+"" == false;//output true
 
-null == null;
+null == null;//output true
 
-undefined == undefined;
+undefined == undefined;//output true
 
-null == undefined;
+null == undefined;//output true
 
-null == 0
+null == 0//output false
 
-null == 21
+null == 21//output false
 
-null == "null"
+null == "null"//output false
 
 undefined == "undefined"
 

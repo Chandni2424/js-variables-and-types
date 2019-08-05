@@ -5,32 +5,32 @@
 * [ ] Logical AND operation
 
 ```js
-true  && true; //output
-true  && false;
-false && true;
-false && false;
-"foo" && "bar";
-"bar" && "foo";
-"foo" && "";
-""    && "foo";
-" "   && "John" && "" && false
-false && "Hey" && undefined
-"undefined" && false && 42
+true  && true; //output true
+true  && false;//output false
+false && true;// output false
+false && false;//output false
+"foo" && "bar";//output bar
+"bar" && "foo";//output foo
+"foo" && "";//output ""
+""    && "foo";// output ""
+" "   && "John" && "" && false//output ""
+false && "Hey" && undefined//output false
+"undefined" && false && 42//output false
 ```
 
 * [ ] Logical OR operation
 ```js
-true  || true;
-true  || false;
-false || true;
-false || false;
-"foo" || "bar";
-"bar" || "foo";
-"foo" || "";
-""    || "foo";
-" "   || "John" || "" || false
-false || "Hey" || undefined
-"undefined" || false || 42
+true  || true;//output true
+true  || false;//output true
+false || true;//output true
+false || false;//output false
+"foo" || "bar";//output "foo"
+"bar" || "foo";//output "bar"
+"foo" || "";//output "foo"
+""    || "foo";//output "foo"
+" "   || "John" || "" || false//output " "
+false || "Hey" || undefined//output "Hey"
+"undefined" || false || 42//output "undefined"
 ```
 
 2. 🥈You have two variables i.e `isGuestOneVeg` and  `isGuestTwoVeg` according to the value using logical && and || opeartor do the following.
