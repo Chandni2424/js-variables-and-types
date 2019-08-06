@@ -34,41 +34,41 @@ null == 21//output false
 
 null == "null"//output false
 
-undefined == "undefined"
+undefined == "undefined"// false
 
-undefined == 0
+undefined == 0//false
 
-undefined == false
+undefined == false//false
 
-undefined == "false"
+undefined == "false"//false
 
-NaN == null;
+NaN == null;//false
 
-NaN == "NaN"
+NaN == "NaN"//false
 
-NaN == 0
+NaN == 0//false
 
-NaN == false
+NaN == false//false
 
-NaN == undefined;
+NaN == undefined;//false
 
-NaN == NaN;
+NaN == NaN;//false
 
-2 > 1
+2 > 1//true
 
-2 != 1
+2 != 1//true
 
-'Z' > 'A'
+'Z' > 'A'//false
 
-"Hello World" > "Super Mario"
+"Hello World" > "Super Mario"//false
 
-"Hello World" != "Super Mario"
+"Hello World" != "Super Mario"//true
 
-NaN !== NaN
+NaN !== NaN//true
 
-NaN != NaN
+NaN != NaN//true
 
-NaN != undefined
+NaN != undefined//true
 
 undefined != null
 

@@ -41,7 +41,10 @@ false || "Hey" || undefined//output "Hey"
 ```js
 let isGuestOneVeg = false;
 let isGuestTwoVeg = false;
-// Your code goes here
+// 
+if (isGuestOneVeg && isGuestTwoVeg){alert("Only Offer Up Vegan Dishes");}
+else if (isGuestOneVeg||isGuestTwoVeg){alert("make sure to offer some vegan options");}
+else {alert("Offer up anything on the menu");}
 ```
 
 
@@ -52,9 +55,14 @@ let isGuestTwoVeg = false;
 ```js
 let temperature = 4;
 // Your code goes here
+var temperature=4;
+if (temperature < 32) {alert ("It is freezing outside");}
+else if (temperature > 110) {alert ("It is hot outside");}
+else {alert ("Go For It. It is pretty nice out");}
+
 ```
 
 4. 🎖 Output of this
 ```js
 alert( alert(1) || 2 || alert(3) );
-```
+```//1, 2, 3

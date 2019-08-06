@@ -1,5 +1,14 @@
 ## If Statement
 1.  🎖Make a simple calculator with these functions. Using prompt, type conversion, if else statement. Use prompt to take the input from user i.e two numbers and an operation (Add, Sub, Mul, Div).
+var num1 =prompt("give a number");
+var num2 =prompt("give a number");
+var operator =prompt("give an operator like add,sub,div,mul");
+if (operator=="+"){alert(Number(num1) + Number(num2));}
+else if (operator=="-"){alert(Number(num1) - Number(num2));}
+else if (operator=="*"){alert(Number(num1) * Number(num2));}
+else if (operator=="/"){alert(Number(num1) / Number(num2));}
+
+
 
   ⛑ Rule
     * [ ] While substracting and dividing keep in mind the number one should be greater then number two. If not show alert saying `Number Two is larger then Number one`.
@@ -14,18 +23,30 @@
 var firstName = 'John';
 var status = 'single';
 // Your code goes here
-```
+if(status=='single')
+{console.log("John is single");}
+else{console.log("John is married");}
 
 3. 🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
 ```js
 // your code goes here
-```
+var integer1=prompt("Put a number");
+var integer2=prompt("Put a number");
+if (integer1>integer2) 
+{alert(integer1 + " is larger");}
+else{alert(integer2 + " is larger);}
 
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 
 ```js
 // Your code goes here
-```
+var num1=prompt("write a number");
+var num2=prompt("write a number");
+var num3=prompt("write a number");
+var product= num1, num2, num3;
+if(product>=0)
+{alert("+");}
+else{alert("-");}
 
 ## Switch Statement
 
