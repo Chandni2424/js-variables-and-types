@@ -1,13 +1,5 @@
 ## If Statement
 1.  🎖Make a simple calculator with these functions. Using prompt, type conversion, if else statement. Use prompt to take the input from user i.e two numbers and an operation (Add, Sub, Mul, Div).
-var num1 =prompt("give a number");
-var num2 =prompt("give a number");
-var operator =prompt("give an operator like add,sub,div,mul");
-if (operator=="+"){alert(Number(num1) + Number(num2));}
-else if (operator=="-"){alert(Number(num1) - Number(num2));}
-else if (operator=="*"){alert(Number(num1) * Number(num2));}
-else if (operator=="/"){alert(Number(num1) / Number(num2));}
-
 
 
   ⛑ Rule
@@ -17,6 +9,15 @@ else if (operator=="/"){alert(Number(num1) / Number(num2));}
     * [ ] Sub
     * [ ] Mul
     * [ ] Div
+//
+var num1 =prompt("give a number");
+var num2 =prompt("give a number");
+var operator =prompt("give an operator like add,sub,div,mul");
+if (operator=="+"){alert(Number(num1) + Number(num2));}
+else if (operator=="-"){alert(Number(num1) - Number(num2));}
+else if (operator=="*"){alert(Number(num1) * Number(num2));}
+else if (operator=="/"){alert(Number(num1) / Number(num2));}
+
 
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js

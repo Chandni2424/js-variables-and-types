@@ -65,4 +65,5 @@ else {alert ("Go For It. It is pretty nice out");}
 4. 🎖 Output of this
 ```js
 alert( alert(1) || 2 || alert(3) );
-```//1, 2, 3
+```// 2
+reason : because alert gives an output of "undefined" which is false. Therefore || takes the first truthy value which is 2.

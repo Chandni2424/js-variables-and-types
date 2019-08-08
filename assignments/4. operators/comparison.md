@@ -10,7 +10,7 @@ true === true;//output true
 
 77 == "77";//output true
 
-77 === "77";output false
+77 === "77";//output false
 
 "cat" === "dog";//output false
 
@@ -70,9 +70,9 @@ NaN != NaN//true
 
 NaN != undefined//true
 
-undefined != null
+undefined != null//true
 
-undefined != "Hello"
+undefined != "Hello"//true
 
 undefined != "undefined"
 
