@@ -22,17 +22,17 @@ product cost should be written in camel case without space//productCost
 
 ## Write `VALID` and `INVALID` infront of the variable name defined below
 ```js
-var man; //Valid
-var 1girl;//Invalid
-var woman3;//Valid
-var -girl;//Invalid
-var blackDog;//Valid
-var 42;//Invalid
-var $42;//Valid
-var userName;//Valid
-var x, y, z;//Valid
-var x = 5, y = 6, z = 7;//Valid
-var x = 5 + 10 + 2;// Valid
+var man; /Valid
+var 1girl;/Invalid
+var woman3;/Valid
+var -girl;/Invalid
+var blackDog;/Valid
+var 42;/Invalid
+var $42;/Valid
+var userName;/Valid
+var x, y, z;/Valid
+var x = 5, y = 6, z = 7;/Valid
+var x = 5 + 10 + 2;/ Valid
 ```
 
 ## Basic Operations
