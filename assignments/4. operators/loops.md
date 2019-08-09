@@ -15,6 +15,7 @@ var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
+
 ```
  ⛑ Answer of the above will `$334.76`.
 
@@ -51,14 +52,17 @@ console.log(1 + "*" + i + "=" + m);
 // 6, 7, 8, 9, 10
 
 // 
-var str="";
-for (i=1; i<=10; i++){
-	str=str + i + ",";
-	if (str>5){
-		console.log(`${str}\n`);
-	}
+ var a = ""
+ var b = ""
 
-}
+ for(i = 1; i < 6; i++) {
+ 	a = a +i + ',';
+ 	b = b+(i + 5) + ',';
+ }
+ console.log(a);
+ console.log(b);
+
+
 
 
 
